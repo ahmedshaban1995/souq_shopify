@@ -26,7 +26,7 @@ const Categories_arrival = () => {
             <View  style={{borderRadius:10,marginHorizontal:15,paddingHorizontal:10, alignItems:"center",backgroundColor:"#EEEEEE"}}>
                   <Text style={{fontSize:25 ,color:"gray"}}>H&M <Image style={{width:50,height:50}} source={require('../assets/hm_logo_icon_181277.png')}></Image></Text>
                   </View>
-            <View  style={{borderRadius:10,marginHorizontal:15, alignItems:"center",backgroundColor:"#EEEEEE"}}>
+            <View  style={{borderRadius:10,marginHorizontal:15, alignItems:"center",backgroundColor:"#EEEEEE",opacity:0.5}}>
                   <Text style={{fontSize:25,color:"gray"}}>Rolex <Image style={{width:50,height:50}} source={require('../assets/rolex.png')}></Image></Text>
             </View>
             <View  style={{borderRadius:10,marginHorizontal:15,paddingHorizontal:10, alignItems:"center",backgroundColor:"#EEEEEE"}}>

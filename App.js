@@ -20,7 +20,7 @@ export default function App() {
   const [address, setadress] = useState(null);
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       {/* <Registration */}
         {/* email={email} */}
         {/* username={username}
@@ -38,10 +38,10 @@ export default function App() {
       <Home_arrival />
       <Home_trends />
       <Home_sellers /> */}
-      {/* < Categories_arrival /> */}
-      <Firstpage />
+      < Categories_arrival />
+      {/* <Firstpage /> */}
       <StatusBar style="auto" />
-    </View>
+    </ScrollView>
   );
 }
 
