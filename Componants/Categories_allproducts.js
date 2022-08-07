@@ -1,32 +1,18 @@
-// import { faBold } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { Text, SafeAreaView,ScrollView,View, Image,ImageBackground ,TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 
-const Categories_arrival = () => {
+const Categories_allproducts = () => {
     return (
      <SafeAreaView>
             
             <View style={{marginVertical:25}}>
-             <Text style={{fontSize:25}}>  <Icon name="arrow-left" size={20} color="black" /> New Arrivals</Text>
+             <Text style={{fontSize:25}}>  <Icon name="arrow-left" size={20} color="black" /> All Products</Text>
             </View>
 
-            <ScrollView style={{bottom:5}} horizontal={true}>
-            <TouchableOpacity  style={{borderRadius:10,marginHorizontal:15,padding:10, alignItems:"center",justifyContent:"center",backgroundColor:"#EEEEEE"}}>
-                <Text style={{fontSize:23,color:"black",opacity:0.4}} >Clothes</Text>
-             </TouchableOpacity >
-            <TouchableOpacity   style={{borderRadius:10,marginHorizontal:15,padding:10, alignItems:"center",justifyContent:"center",backgroundColor:"#EEEEEE"}}>
-                <Text style={{fontSize:25,color:"black",opacity:0.4}}>Fernetures</Text>
-            </TouchableOpacity > 
-            <TouchableOpacity  style={{borderRadius:10,marginHorizontal:15,padding:10, alignItems:"center",justifyContent:"center",backgroundColor:"#EEEEEE"}}>
-                  <Text style={{fontSize:25,color:"black",opacity:0.4}}>Electronic Devices </Text>
-            </TouchableOpacity >
-            <TouchableOpacity style={{borderRadius:10,marginHorizontal:15,padding:10, alignItems:"center",justifyContent:"center",backgroundColor:"#EEEEEE"}}>
-                  <Text style={{fontSize:25 ,color:"black",opacity:1}}>Appliances</Text>
-             </TouchableOpacity>
-            </ScrollView>
+           
            <ScrollView Vertical={true}>
             <View style={{display:"flex",flexDirection:"row"}}> 
    
@@ -196,4 +182,4 @@ const Categories_arrival = () => {
     </SafeAreaView> );
 }
  
-export default Categories_arrival;
+export default Categories_allproducts;

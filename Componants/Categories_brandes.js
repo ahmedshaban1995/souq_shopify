@@ -1,31 +1,47 @@
-// import { faBold } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { Text, SafeAreaView,ScrollView,View, Image,ImageBackground ,TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 
-const Categories_arrival = () => {
+const Categories_brandes = () => {
     return (
      <SafeAreaView>
             
-            <View style={{marginVertical:25}}>
-             <Text style={{fontSize:25}}>  <Icon name="arrow-left" size={20} color="black" /> New Arrivals</Text>
+            <View style={{ width:"100%",marginVertical:25,}}>
+             
+             <Text style={{fontSize:25}}>  <Icon name="arrow-left" size={20} color="black" />Top Brandes</Text>
             </View>
 
-            <ScrollView style={{bottom:5}} horizontal={true}>
-            <TouchableOpacity  style={{borderRadius:10,marginHorizontal:15,padding:10, alignItems:"center",justifyContent:"center",backgroundColor:"#EEEEEE"}}>
-                <Text style={{fontSize:23,color:"black",opacity:0.4}} >Clothes</Text>
-             </TouchableOpacity >
-            <TouchableOpacity   style={{borderRadius:10,marginHorizontal:15,padding:10, alignItems:"center",justifyContent:"center",backgroundColor:"#EEEEEE"}}>
-                <Text style={{fontSize:25,color:"black",opacity:0.4}}>Fernetures</Text>
-            </TouchableOpacity > 
-            <TouchableOpacity  style={{borderRadius:10,marginHorizontal:15,padding:10, alignItems:"center",justifyContent:"center",backgroundColor:"#EEEEEE"}}>
-                  <Text style={{fontSize:25,color:"black",opacity:0.4}}>Electronic Devices </Text>
-            </TouchableOpacity >
-            <TouchableOpacity style={{borderRadius:10,marginHorizontal:15,padding:10, alignItems:"center",justifyContent:"center",backgroundColor:"#EEEEEE"}}>
-                  <Text style={{fontSize:25 ,color:"black",opacity:1}}>Appliances</Text>
-             </TouchableOpacity>
+            <ScrollView style={{marginBottom:15}} horizontal={true}>
+            <View  style={{borderRadius:10,marginHorizontal:15,paddingHorizontal:10, alignItems:"center",backgroundColor:"#EEEEEE",opacity:0.4}}>
+                <Text style={{fontSize:25,marginBottom:15}} >NIKE <Image style={{width:50,height:50}} source={require('../assets/Nike.png')}></Image> </Text>
+             </View>
+            <View  style={{borderRadius:10,paddingHorizontal:10,backgroundColor:"#EEEEEE",opacity:0.4}}>
+                <Text style={{fontSize:25}}>Adidas <Image style={{width:50,height:50}} source={require('../assets/adidas.png')}></Image></Text>
+            </View> 
+            <View  style={{borderRadius:10,marginHorizontal:15,paddingHorizontal:10, alignItems:"center",backgroundColor:"#EEEEEE",opacity:0.4}}>
+                  <Text style={{fontSize:25}}>Zara <Image style={{width:50,height:50}} source={require('../assets/zara.png')}></Image></Text>
+            </View>
+            <View  style={{borderRadius:10,marginHorizontal:15,paddingHorizontal:10, alignItems:"center",backgroundColor:"#EEEEEE",opacity:0.4}}>
+                  <Text style={{fontSize:25 }}>H&M <Image style={{width:50,height:50}} source={require('../assets/hm_logo_icon_181277.png')}></Image></Text>
+                  </View>
+            <View  style={{borderRadius:10,marginHorizontal:15, alignItems:"center",backgroundColor:"#EEEEEE",opacity:0.5}}>
+                  <Text style={{fontSize:25}}>Rolex <Image style={{width:50,height:50}} source={require('../assets/rolex.png')}></Image></Text>
+            </View>
+            <View  style={{borderRadius:10,marginHorizontal:15,paddingHorizontal:10, alignItems:"center",backgroundColor:"#EEEEEE",opacity:0.4}}>
+                  <Text style={{fontSize:25}}>Polo Ralph Lauren <Image style={{width:50,height:50}} source={require('../assets/polo.png')}></Image></Text>
+            </View>
+            <View  style={{borderRadius:10,marginHorizontal:15,paddingHorizontal:10, alignItems:"center",backgroundColor:"#EEEEEE",opacity:0.4}}>
+                   <Text style={{fontSize:25}}>American Eagle Outfitters <Image style={{width:50,height:50}} source={require('../assets/american-eagle-outfitters.png')}></Image></Text>
+            </View>
+            <View  style={{borderRadius:10,marginHorizontal:15,paddingHorizontal:10, alignItems:"center",backgroundColor:"#EEEEEE",opacity:0.4}}>
+                   <Text style={{fontSize:25}}>Puma <Image style={{width:50,height:50}} source={require('../assets/images.png')}></Image></Text>
+            </View>
+            <View  style={{borderRadius:10,marginHorizontal:15,paddingHorizontal:10, alignItems:"center",backgroundColor:"#EEEEEE",opacity:1}}>
+                  <Text style={{fontSize:25}}>Hugo Boss <Image style={{width:50,height:50}} source={require('../assets/boss-hugo-boss.png')}></Image></Text>
+            </View>
+            
             </ScrollView>
            <ScrollView Vertical={true}>
             <View style={{display:"flex",flexDirection:"row"}}> 
@@ -196,4 +212,4 @@ const Categories_arrival = () => {
     </SafeAreaView> );
 }
  
-export default Categories_arrival;
+export default Categories_brandes;

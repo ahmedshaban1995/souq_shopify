@@ -11,6 +11,9 @@ import Home_trends from "./Componants/Home_trends";
 import Home_sellers from "./Componants/Home_sellers";
 import  Categories_arrival from "./Componants/Categories_arrival";
 import Firstpage from "./Componants/Firstpage";
+import Categories_brandes from "./Componants/Categories_brandes";
+import Categories_allproducts from "./Componants/Categories_allproducts";
+import Shopping_cart from "./Componants/Shopping_cart";
 
 
 export default function App() {
@@ -21,16 +24,9 @@ export default function App() {
 
   return (
     <ScrollView style={styles.container}>
-      {/* <Registration */}
-        {/* email={email} */}
-        {/* username={username}
-        password={password}
-        address={address}
-        setemail={setemail}
-        setusername={setusername}
-        setpassword={setpassword}
-        setadress={setadress}
-      /> */}
+       {/* <Firstpage /> */}
+      {/* <Registration /> */}
+        
       {/* <Login /> */}
       {/* <Forgetpassword /> */}
       
@@ -38,8 +34,11 @@ export default function App() {
       <Home_arrival />
       <Home_trends />
       <Home_sellers /> */}
-      < Categories_arrival />
-      {/* <Firstpage /> */}
+      {/* < Categories_arrival /> */}
+      {/* <Categories_brandes /> */}
+      {/* <Categories_allproducts /> */}
+      <Shopping_cart />
+     
       <StatusBar style="auto" />
     </ScrollView>
   );
